@@ -2,7 +2,7 @@
 
 A small StrongLoop LoopBack 2 app (npm package `gatewayd4`) that sketches an enterprise-style rewrite of gatewayd, the Ripple gateway server.
 
-> **Status: dormant since October 2014.** Two commits, 2014-10-21 to 2014-10-28, written during Steven's 2014 Ripple gateway era. It was an experiment and was not taken further. I have not run it on a current toolchain.
+> **Status: dormant since October 2014.** Two commits, 2014-10-21 to 2014-10-28, written during Steven's 2014 Ripple gateway era. It was an experiment and was not taken further. It has not been run on a current toolchain.
 
 ## What is in it
 

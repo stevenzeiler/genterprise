@@ -22,7 +22,7 @@ A dormant 2014 LoopBack 2 experiment (package `gatewayd4`). Baseline-tier docs o
 
 - Install: `npm install` (untested today)
 - Run: `node server/server.js`
-- Lint: `npm test` runs only `jshint .`. There are no real tests.
+- Lint: `npx jshint .`. `package.json` has only a `pretest` script (`jshint .`) and no `test` script, so `npm test` stops with a missing-script error. There are no tests.
 - These are known or likely not to work on today's toolchain. Say so plainly rather than guessing.
 
 ## Rules

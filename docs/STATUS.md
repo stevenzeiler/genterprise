@@ -11,8 +11,7 @@ Last reviewed: 2026-11-20 (github-audit pass 02, docs only; nothing was run).
 - Never run for this review. LoopBack 2 and its 2014 dependencies are unlikely to install cleanly on a current Node.
 - `server/boot/gatewayd-basic-api.js` uses a `server` variable that is not defined in that file, so `GET /payments/incoming` would likely error. It also seeds a fixed Ripple address on each call.
 - gatewayd itself is not wired in, despite the last commit message.
-- Storage is in-memory only. No tests besides `jshint`.
-- No `loopback-explorer` pin issues were checked; it is an optional dependency.
+- Storage is in-memory only. No tests. `jshint` is wired as a `pretest` script, but there is no `test` script, so `npm test` fails with a missing-script error.
 
 ## What's next
 
